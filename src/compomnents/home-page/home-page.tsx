@@ -18,7 +18,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import Button from '@mui/material/Button';
-import { CheckIcon, CrossIcon } from '../icons';
+import { CheckIcon } from '../icons';
 import { db } from '../../firebase';
 import { AuthContext } from '../../providers/auth';
 import { AddTodo } from '../add-todo';
@@ -26,7 +26,6 @@ import { Todo } from '../../models/todo';
 import { TodoCard } from '../todo-card';
 import IconButton from '@mui/material/IconButton';
 import Box from '@mui/material/Box';
-import { yellow, red } from '@mui/material/colors';
 import CloseIcon from '@mui/icons-material/Close';
 
 type HomePageButtonProps = {
